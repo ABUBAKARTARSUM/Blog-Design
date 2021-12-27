@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Changa+One&family=Coiny&family=Monoton&family=Nunito:wght@300&family=Saira+Stencil+One&display=swap');
+
+.navbar-brand {
+    font-family: 'Changa One', cursive;
+    letter-spacing: 1px;
+    background: linear-gradient(to right, #ef476f, #ff6d00);
+    font-weight: bold;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.nav-link {
+    text-transform: capitalize;
+    font-family: 'Nunito', sans-serif;
+}
+.jumbotron h1 {
+    font-family: 'Saira Stencil One', cursive;
+    font-weight: bold;
+    font-size: 3em;
+    margin-top: 1rem;
+    text-transform: uppercase;
+}
+h2 {
+    font-family: 'Coiny', cursive;
+    text-shadow: 2px 2px 1px rgb(167, 167, 167);
+}
+h3 {
+    font-family: 'Monoton', cursive;
+}
+@media (min-width: 992px) {
+    .active::after {
+      content: '';
+      display: block;
+      border-bottom: 2px solid #ef476f;
+      width: 100%;
+      padding-bottom: 4px;
+      margin-bottom: -6px;
+      transition: all 1.4s;
+    }
+    .jumbotron h1 {
+        font-family: 'Saira Stencil One', cursive;
+        font-weight: bold;
+        font-size: 4em;
+        margin-top: 1.8rem;
+    }
+    .nav-link {
+        text-transform: capitalize;
+        margin-left: 1rem;
+        font-family: 'Nunito', sans-serif;
+    }
+}    
+.img-radius {
+    border-radius: 8px;
+}
+h4 {
+    font-family: 'Nunito',  cursive;
+    font-weight: bold;
+}
+.btn-gradient {
+    background: linear-gradient(to right, #ef476f, #ff6d00);
+    color: white;
+    border-radius: 20px;
+    width: 50%;
+    transition: 0.3s ease;
+}
+.bg-gradient {
+    background: linear-gradient(120deg, #ef476f, #ff6d00);
+}
+.btn-gradient:hover {
+    color: white;
+    width: 60%;
+}
+a {
+    text-decoration:none;
+    color: #ffffff;
+    transition: 0.3s ease;
+}
+a:hover {
+    color: rgb(185, 185, 185);
+}
+.form-control {
+    background: rgba(255, 255, 255, 0.3);
+    outline: none;
+    border: none;
+    color: white;
+    /* border-radius: 20px; */
+}
+.form-control:focus {
+    background: rgba(255, 255, 255, 0.3);
+    outline: none;
+    border: none;
+    color: white;
+    font-family: 'Nunito', cursive;
+    /* border-radius: 20px; */
+}
+i {
+    border-radius: 3px;
+}
